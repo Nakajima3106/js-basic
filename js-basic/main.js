@@ -1,4 +1,5 @@
-var text = 'Javascriptを勉強中です。';
-console.log(text);
-text = 'Javascriptの勉強を中断します。';
-console.log(text);
+var obj = {
+  text: 'Javascriptを勉強中です。',
+  days: 5,
+};
+console.log("私は" + obj.days + "日間" + obj.text);
